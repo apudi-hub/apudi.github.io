@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Smart Cents - Contact & Newsletter</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Contact Smart Cents and sign up for the money tips newsletter.">
+  <meta name="keywords" content="contact, newsletter, form, Smart Cents">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="site-header">
+    <div class="container">
+      <h1 class="logo">
+        Smart Cents
+        <img src="smartcents-header.png" alt="Finance Growth Graphic" class="logo-img">
+      </h1>
+      <p class="tagline">Smart and Simple money tips for real life.</p>
+      <nav class="main-nav">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="budgeting.html">Budgeting 101</a></li>
+          <li><a href="savings.html">Savings &amp; Goals</a></li>
+          <li><a href="credit.html">Credit &amp; Debt</a></li>
+          <li><a href="tools.html">Tools &amp; Calculators</a></li>
+          <li><a href="contact.html" class="current">Contact / Newsletter</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main class="site-main">
+    <div class="container">
+      <section class="hero">
+        <h2>Contact &amp; Newsletter</h2>
+        <p>Have a question or want simple money tips in your inbox? Use the form below to reach out.</p>
+      </section>
+
+      <section>
+        <h3>Smart Cents Contact Form</h3>
+
+        <form action="#" method="post" class="contact-form">
+          <p>
+            <label for="name">Name:</label><br>
+            <input type="text" id="name" name="name" required>
+          </p>
+          <p>
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required>
+          </p>
+          <p>
+            <label for="goal">Main Money Goal:</label><br>
+            <input type="text" id="goal" name="goal" placeholder="Pay off debt, save for a trip, etc.">
+          </p>
+          <p>
+            <label for="topic">Topic You’re Most Interested In:</label><br>
+            <select id="topic" name="topic">
+              <option value="budgeting">Budgeting Basics</option>
+              <option value="savings">Saving &amp; Goals</option>
+              <option value="credit">Credit &amp; Debt</option>
+            </select>
+          </p>
+          <p>
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="4"></textarea>
+          </p>
+          <p>
+            <button type="submit">Submit</button>
+          </p>
+        </form>
+
+        <p>If you prefer, you can also email us directly at
+          <a href="mailto:info@smartcents.com">info@smartcents.com</a>.
+        </p>
+      </section>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p><small>&copy; 2025 Smart Cents. All rights reserved.</small></p>
+    </div>
+  </footer>
+</body>
+</html>
